@@ -1,0 +1,19 @@
+int x = 0;
+int y = 250;
+int frame = 10;
+void setup(){
+ size(500, 500);
+}
+
+
+void draw(){
+  frameRate(frame);
+background(255, 255, 255);
+x += 5;
+y += 0;
+
+circle(x, y, 10);
+if (x > 500){
+  x=0;
+}
+}
