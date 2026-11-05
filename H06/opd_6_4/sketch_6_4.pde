@@ -1,7 +1,14 @@
-size (400, 400);
-boolean vierkant = true;
-if ( vierkant ){ 
-  rect (20, 20, 20, 20);
-} else  { 
-  circle(224, 184, 220);
-}
+int leeftijd = 20;
+
+if (leeftijd < 2) {
+  println("baby");
+}else if (leeftijd < 4){
+  println("kleuter");
+}else if (leeftijd < 12) {
+  println("kind");
+}else if (leeftijd < 20) {
+  println("tiener");
+}else if (leeftijd < 25){
+  println("adolescent");
+}if (leeftijd >= 25){
+  println("volwasse");}
