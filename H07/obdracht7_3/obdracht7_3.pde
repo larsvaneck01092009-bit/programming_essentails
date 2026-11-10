@@ -1,5 +1,5 @@
 int c = 6;
 
-for(int i = c; i <31; i += 6) {
-  println(i);
+for(int i = 1; i < 11; i++) {
+  println(c * i);
 }
