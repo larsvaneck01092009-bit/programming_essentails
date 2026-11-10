@@ -1,4 +1,4 @@
-int x = 700;
+int x = 500;
 int y = 500;
 int a = 300;
 int b = 30;
@@ -14,9 +14,9 @@ background(0,0,0);
 
 
 
-text("mijn naam is "+ naam1 +" ik ben op loctie "+  x + " "+ y + ".",x-400,y+200);
+text("mijn naam is "+ naam1 +" ik ben op loctie "+  (x-300) + " "+ y + ".",x-400,y+200);
 text("mijn naam is "+ naam2 +" ik ben op loctie "+  x + " "+ y + ".",x-100,y+200);
-text("mijn naam is "+ naam3 +" ik ben op loctie "+  x + " "+ y + ".",x+200,y+200);
+text("mijn naam is "+ naam3 +" ik ben op loctie "+  (x+300) + " "+ y + ".",x+200,y+200);
 
 strokeWeight(1);
 circle(x,y,a);
