@@ -1,5 +1,5 @@
 size(670, 670);
 
-background(0, 0, 0);
+background(10, 10, 10);
 
-text("Gelukt!", 0, 10);
+text("Lars!", 645, 10);
